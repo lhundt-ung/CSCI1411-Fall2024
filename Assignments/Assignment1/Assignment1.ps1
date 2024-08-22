@@ -66,14 +66,14 @@ cd $Path                                                         #
 ### 1. Create a variable called $files1 and assign it the output files including 
 ### files inside of subfolders in C:\Windows\System32\driverStore using the cmdlet Get-ChildItem
 ## HINT: You will need to use two additional parameters to recusively retrieve files in sub-directories
-## HINT: 1643 items will be returned. Use count attribute to verify size (Example: $files1.count)
+## HINT: 1644 items will be returned. Use count attribute to verify size (Example: $files1.count)
 ## YOUR CODE HERE
 
 
 
 ### 2. Create a variable called $files2 and assign it the output all ".sys" files 
 ### in C:\Windows\System32\driverStore using the cmdlet: Get-ChildItem
-## HINT: 329 files returned
+## HINT: 330 files returned
 ## YOUR CODE HERE
 
 
