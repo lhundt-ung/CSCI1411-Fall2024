@@ -6,7 +6,6 @@ head -n 1000 sherlock.txt | grep -w "Holmes" >> extract.txt
 
 #3. Append the current date to extract.txt
 date >> extract.txt
-date +%F >> extract.txt
 
 #4. Read the output of extracted.txt
 more extract.txt
@@ -20,13 +19,13 @@ cp extract.txt extracted_backup.txt
 ls extract* -s -h
 
 #7. Delete all files that start with the word "extract" 
-rm extract* 
+rm extract*
 
 #8. Use a program called host to query Internet domain name servers for information.
 #  Perform a lookup of google.com
 host google.com
 
 #9. Same query as #8 but only lines with mail addresses. Then write out to google.txt
-host google.com | grep "mail" > google.txt
+host google.com | grep "mail"
 
 
